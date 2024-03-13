@@ -326,13 +326,13 @@ const StepOne = ({ nextStep }) => {
                 </div>
               </div>
             ) : (
-              <div className=''>
+              <div className='pb-4'>
                 <div className="flex items-center justify-center w-full">
                   <label htmlFor="image_upload" className=" bg-[#3e3e3e] h-[200px] cursor-pointer bg-gray border-2 border-[#555] rounded-2xl w-full pb-4">
                     <div className='flex justify-center'>
                       <img className='w-24' src="/cloud.png" alt="" />
                     </div>
-                    <span className="text-center block text-[#fff] text-md px-2"> Choose the product image that everyone can see</span>
+                    <span className="text-center block text-[#fff] text-sm md:text-md px-2"> Choose the product image that everyone can see</span>
                     <div className='flex justify-center mt-5'>
                       <button type="button" onClick={handleUploadButtonClick} className='bg-[#444] px-12 rounded-lg border-2 border-[#555] py-2 text-white'>Upload</button>
                     </div>
