@@ -333,8 +333,8 @@ const StepOne = ({ nextStep }) => {
                       <img className='w-24' src="/cloud.png" alt="" />
                     </div>
                     <span className="text-center block text-[#fff] text-sm md:text-md px-2"> Choose the product image that everyone can see</span>
-                    <div className='flex justify-center mt-5'>
-                      <button type="button" onClick={handleUploadButtonClick} className='bg-[#444] px-12 rounded-lg border-2 border-[#555] py-2 text-white'>Upload</button>
+                    <div className='flex justify-center mt-3 md:mt-5'>
+                      <button type="button" onClick={handleUploadButtonClick} className='bg-[#444] text-sm md:text-md px-12 rounded-lg border-2 border-[#555] py-2 text-white'>Upload</button>
                     </div>
                     <input id="image_upload" className="hidden" type="file" ref={fileInputRef} onChange={handleFileInputChange} />
                   </label>
