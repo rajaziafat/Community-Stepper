@@ -326,7 +326,7 @@ const StepOne = ({ nextStep }) => {
                 </div>
               </div>
             ) : (
-              <div className='pb-4'>
+              <div className='pb-4 md:pb-0'>
                 <div className="flex items-center justify-center w-full">
                   <label htmlFor="image_upload" className=" bg-[#3e3e3e] h-[200px] cursor-pointer bg-gray border-2 border-[#555] rounded-2xl w-full pb-4">
                     <div className='flex justify-center'>
